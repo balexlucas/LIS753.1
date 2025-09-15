@@ -1,3 +1,9 @@
+header p {
+  text-align: center;
+  font-family: arial;
+  font-size: 24px;
+}
+
 h1 {
   background-color: #66ccff;
   color: white;
