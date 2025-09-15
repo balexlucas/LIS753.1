@@ -33,3 +33,9 @@ p {
   margin-right: 1.5cm;
   margin-left: 1.5cm;
 }
+
+header p {
+  font-family: arial;
+  font-size: 24px;
+  text-align: center;
+}
