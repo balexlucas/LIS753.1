@@ -1,0 +1,35 @@
+h1 {
+  background-color: #66ccff;
+  color: white;
+  letter-spacing: -2px;
+  text-shadow: 2px 2px black;
+  font-family: arial;
+  font-size: 68px;
+  text-align: center;
+  
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+figure {
+  border: 1px solid black;
+  padding: 12px;
+  padding-bottom: 24px;
+
+}
+
+p img {
+  float: right;
+  max-width: 50%; 
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
+
+p {
+  margin-right: 1.5cm;
+  margin-left: 1.5cm;
+}
