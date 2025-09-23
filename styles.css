@@ -40,11 +40,13 @@ header p {
   text-align: center;
 }
 
-nav ul{
-  display: inline-block;
+ul{
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
   list-style: none;
   padding-left: 0;
-  border: 1px solid white;
+  border: 1px solid grey;
 }
 
 a {
@@ -54,7 +56,7 @@ a {
 
 ul li a{
   text-decoration: none;
-  border: white;
+  border: gray;
 
 }
 
