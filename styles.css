@@ -40,7 +40,7 @@ header p {
   text-align: center;
 }
 
-ul{
+ul {
   display: flex;
   justify-content: center;
   gap: 3vw;
@@ -54,12 +54,12 @@ a {
   color: red
 }
 
-ul li a{
+ul li a {
   text-decoration: none;
   border: gray;
   font-size: 14px;
 }
 
-ul li a:hover{
+ul li a:hover {
   text-decoration: underline;
 }
