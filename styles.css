@@ -40,6 +40,13 @@ header p {
   text-align: center;
 }
 
+nav ul{
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid white;
+}
+
 a {
   font-weight: bold;
   color: red
@@ -47,6 +54,7 @@ a {
 
 ul li a{
   text-decoration: none;
+  border: white;
 
 }
 
