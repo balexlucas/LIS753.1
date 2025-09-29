@@ -8,7 +8,7 @@ h1 {
   text-align: center;
 }
 
-skip-to-content-link {
+.skip-to-content-link {
   left: 50%;
   padding: 4px;
   position: absolute;
@@ -16,7 +16,7 @@ skip-to-content-link {
   transition: 0.3s;
 }
 
-skip-to-content-link:focus {
+.skip-to-content-link:focus {
   transform: translateY(0%);
 }
 
