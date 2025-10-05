@@ -150,8 +150,7 @@ footer#page-footer {
 }
 
 footer nav ul {
-  border-top: 2px
-  border-color: solid gray
+  background-color: #007EBD
   text-decoration: none;
   justify-content: center;
   list-style: none;
