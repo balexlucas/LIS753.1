@@ -149,12 +149,12 @@ nav ul li a:hover {
 }
 
 footer ul {
-  display: flex;
+  display: 
   justify-content: center;
   gap: 3vw;
   list-style: none;
-  padding-top: 12px;
-  padding-left: 0;
+  padding-bottom: 12px;
+  padding-top: 12px
   border: 1px solid grey;
 }
 
