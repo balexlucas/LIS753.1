@@ -148,17 +148,17 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-footer ul {
+footer#page-footer {
   display: 
   justify-content: center;
-  gap: 3vw;
+  gap: 5vw;
   list-style: none;
   padding-bottom: 12px;
   padding-top: 12px
-  border: 1px solid grey;
+  color: #8B080F;
 }
 
-footer ul li a {
+footer#pagefooter ul li a {
   text-decoration: none;
   border: gray;
   font-size: 14px;
