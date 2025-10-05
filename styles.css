@@ -63,6 +63,21 @@ p img {
   margin-bottom: 32px;
 }
 
+figure.main-image {
+  background-color: #007EBD;
+  border-color: white
+}
+
+figure.section-image {
+  background-color: #8B080F;
+  border-color: #007EBD;
+  color: white;
+  float: right;
+  max-width: 300px; 
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
+
 p {
   margin-right: 1.5cm;
   margin-left: 1.5cm;
