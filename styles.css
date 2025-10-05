@@ -148,7 +148,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-footer#page-footer {
+footer nav {
   display: 
   justify-content: center;
   gap: 5vw;
@@ -158,7 +158,7 @@ footer#page-footer {
   color: #8B080F;
 }
 
-footer#pagefooter ul li a {
+footer nav ul li a {
   text-decoration: none;
   border: gray;
   font-size: 14px;
