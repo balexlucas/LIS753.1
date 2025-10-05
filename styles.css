@@ -142,3 +142,13 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+#bottom-nav {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  list-style: none;
+  padding-top: 12px;
+  padding-left: 0;
+  border: 1px solid grey;
+}
