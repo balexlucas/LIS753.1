@@ -62,7 +62,7 @@ figure {
 body main article figure figcaption {
   font: arial;
   color: white;
-  
+
 }
 
 #main {
@@ -148,7 +148,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-footer {
+footer ul {
   display: flex;
   font-size: 12px;
   justify-content: center;
