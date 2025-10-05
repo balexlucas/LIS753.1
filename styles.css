@@ -141,7 +141,7 @@ a {
 nav ul li a {
   text-decoration: none;
   border: gray;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 nav ul li a:hover {
@@ -150,11 +150,16 @@ nav ul li a:hover {
 
 footer ul {
   display: flex;
-  font-size: 12px;
   justify-content: center;
   gap: 3vw;
   list-style: none;
   padding-top: 12px;
   padding-left: 0;
   border: 1px solid grey;
+}
+
+footer ul li a {
+  text-decoration: none;
+  border: gray;
+  font-size: 14px;
 }
