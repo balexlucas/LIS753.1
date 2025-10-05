@@ -143,15 +143,15 @@ a {
   color: #8B080F
 }
 
-footer#page-footer {
+#page-footer {
   text-align: center;
+  text-color: #fffff;
   padding: 32px;
   margin-top: 150px;
+  background-color: #007EBD;
 }
 
 footer nav ul {
-  background-color: #007EBD;
-  text-color: #ffffff;
   text-decoration: none;
   justify-content: center;
   list-style: none;
