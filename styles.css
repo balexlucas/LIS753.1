@@ -37,7 +37,7 @@ h1#site-title {
   text-align: center;
 }
 
-nav ul {
+header nav ul {
   font-size: 12px;
   display: flex;
   justify-content: center;
@@ -45,6 +45,10 @@ nav ul {
   list-style: none;
   padding-left: 0;
   border: 1px solid grey;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
 }
 
 figure img {
@@ -92,7 +96,7 @@ figure.section-image {
   padding: 3px;
   max-width: 300px; 
   margin-left: 20px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 figure.section-image.odd {
@@ -139,34 +143,18 @@ a {
   color: #8B080F
 }
 
-header nav ul li a {
-  text-decoration: none;
-  border: gray;
-  font-size: 16px;
-}
-
-header nav ul li a:hover {
-  text-decoration: underline;
-}
-
 footer#page-footer {
   text-align: center;
-  padding: 32px 0;
-  margin-top: 64px;
+  padding: 32px;
+  margin-top: 150px;
 }
 
-
-footer nav {
-  display: flex;
-  justify-content: center;
-  gap: 5vw;
-  list-style: none;
-  padding-bottom: 12px;
-  padding-top: 12px
-  color: #8B080F;
-}
-
-footer nav ul li a {
+footer nav ul {
   text-decoration: none;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  padding: 5px;
+  gap: 5vw;
   font-size: 20px;
 }
