@@ -138,13 +138,13 @@ a {
   color: #8B080F
 }
 
-nav ul li a {
+header nav ul li a {
   text-decoration: none;
   border: gray;
   font-size: 16px;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
   text-decoration: underline;
 }
 
