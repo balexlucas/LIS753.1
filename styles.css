@@ -81,6 +81,20 @@ figure.section-image {
   margin-bottom: 32px;
 }
 
+figure.section-image.odd {
+  float: right;
+  max-width: 50%; 
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
+
+figure.section-image.even{
+  float: left;
+  max-width: 50%; 
+  margin-right: 20px;
+  margin-bottom: 32px;
+}
+
 p {
   margin-right: 1.5cm;
   margin-left: 1.5cm;
@@ -96,6 +110,7 @@ h2 {
   font-size: 34px;
   text-align: center;
 }
+
 nav ul {
   display: flex;
   justify-content: center;
