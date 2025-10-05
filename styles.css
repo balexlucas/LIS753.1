@@ -76,6 +76,7 @@ figure.section-image {
   border-color: #007EBD;
   color: white;
   float: right;
+  padding: 3px;
   max-width: 300px; 
   margin-left: 20px;
   margin-bottom: 32px;
