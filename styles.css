@@ -149,7 +149,7 @@ header nav ul li a:hover {
 }
 
 footer nav {
-  display: 
+  display: flex;
   justify-content: center;
   gap: 5vw;
   list-style: none;
