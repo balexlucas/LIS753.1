@@ -37,6 +37,16 @@ h1#site-title {
   text-align: center;
 }
 
+nav ul {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid grey;
+}
+
 figure img {
   width: 100%;
   height: auto;
@@ -116,15 +126,6 @@ h2 {
   text-align: center;
 }
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 3vw;
-  list-style: none;
-  padding-left: 0;
-  border: 1px solid grey;
-}
-
 article {
   margin-left: 2px;
   margin-right: 2px;
@@ -145,8 +146,9 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-#bottom-nav {
+footer {
   display: flex;
+  font-size: 12px;
   justify-content: center;
   gap: 3vw;
   list-style: none;
