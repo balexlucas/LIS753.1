@@ -59,8 +59,10 @@ figure {
   padding-bottom: 24px;
 }
 
-figure figcaption {
-  font: arial
+body main article figure figcaption {
+  font: arial;
+  color: white;
+  
 }
 
 #main {
