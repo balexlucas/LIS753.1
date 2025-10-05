@@ -145,7 +145,7 @@ a {
 
 #page-footer {
   text-align: center;
-  text-color: #fffff;
+  color: #ffffff;
   padding: 32px;
   margin-top: 150px;
   background-color: #007EBD;
@@ -159,4 +159,9 @@ footer nav ul {
   padding: 5px;
   gap: 5vw;
   font-size: 20px;
+}
+
+footer a {
+  font-weight: bold;
+  color: #ffffff;
 }
