@@ -47,7 +47,8 @@ Header H3 {
 }
 
 Header H3 p {
-  width: 100%
+  width: 100%;
+  font-size: 25px;
 }
 
 body {
@@ -79,8 +80,9 @@ figure img {
 
 H2.section.header-odd {
   text-align: center;
+  max-margin-right: 30%;
   padding: 25px;
-  font-size: 75px;
+  font-size: 50px;
   background-color: #2F945F;
   border: 5px solid #f9f9f9;
   border-radius: 10px;
@@ -95,22 +97,32 @@ figure.section-image.odd {
   padding-right: 15px;
 }
 
+body 
+
 H2.section.header-even {
   text-align: right;
   padding: 25px;
-  font-size: 75px;
-  indent-left: 25%;
+  font-size: 50px;
   background-color: #2F945F;
   border: 5px solid #f9f9f9;
   border-radius: 10px;
   color: #f9f9f9;
 }
 
+H3 {
+  font-size: 35px;
+}
+
+.table {
+  display: flex;
+  justify-conten: center;
+}
+
 figure.section-image.even {
   float: left;
   padding: 3px;
-  max-width: 75%; 
-  margin-bottom: 32px;
+  max-width: 85%; 
+  margin: 15px;
 }
 
 .skip-link {
