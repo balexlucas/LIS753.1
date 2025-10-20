@@ -1,4 +1,4 @@
-Header {
+HHeader {
   background: #f9f9f9;
   background-image: url("https://images.pexels.com/photos/214659/pexels-photo-214659.jpeg");
   background-attachment: fixed;
@@ -21,7 +21,7 @@ Header h1 {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom:0px;
-  padding-top: 0px
+  padding-top: 0px:
 }
 
 Header h2 {
@@ -52,7 +52,10 @@ body {
   padding: 20px;
 }
 
-
+H3#Schedule {
+  display: flex;
+  flex-direction: row;
+}
 
 nav {
   display: flex;
@@ -62,6 +65,38 @@ nav {
   background: #2F945F;
   border: 5px solid #f9f9f9;
   border-radius: 10px;
+}
+
+.section-even {
+  text-align: left;
+  padding: 25px;
+  font-size: 50px;
+  background-color: #2F945F;
+  border: 5px solid #f9f9f9;
+  border-radius: 10px;
+  color: #f9f9f9;
+  display: inline-block;
+}
+
+figure img {
+  max-width: 50%;
+  height: auto;
+}
+
+figure.section-image.even {
+  float: right;
+  
+}
+
+.section-odd {
+  text-align: right;
+  padding: 25px;
+  font-size: 50px;
+  background-color: #2F945F;
+  border: 5px solid #f9f9f9;
+  border-radius: 10px;
+  color: #f9f9f9;
+  display: inline-block;
 }
 
 .skip-link {
