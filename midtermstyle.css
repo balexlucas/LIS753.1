@@ -1,4 +1,4 @@
-HHeader {
+Header {
   background: #f9f9f9;
   background-image: url("https://images.pexels.com/photos/214659/pexels-photo-214659.jpeg");
   background-attachment: fixed;
@@ -37,6 +37,11 @@ Header h2 {
   border-radius: 10px;
 }
 
+p {
+ padding-left: 20px;
+ padding-right: 30px;
+}
+
 Header H3 {
   background-color: #2F945F;
   color: #f9f9f9;
@@ -52,11 +57,6 @@ body {
   padding: 20px;
 }
 
-H3#Schedule {
-  display: flex;
-  flex-direction: row;
-}
-
 nav {
   display: flex;
   justify-content: center;
@@ -67,10 +67,11 @@ nav {
   border-radius: 10px;
 }
 
-.section-even {
+H2.section.header-even {
   text-align: left;
   padding: 25px;
   font-size: 50px;
+  indent-left: 25%;
   background-color: #2F945F;
   border: 5px solid #f9f9f9;
   border-radius: 10px;
@@ -79,24 +80,33 @@ nav {
 }
 
 figure img {
-  max-width: 50%;
-  height: auto;
+  max-width: 500px;
 }
 
-figure.section-image.even {
-  float: right;
-  
-}
-
-.section-odd {
-  text-align: right;
+H2.section.header-odd {
+  text-align: center;
+  display: inline-block;
   padding: 25px;
-  font-size: 50px;
+  font-size: 75px;
   background-color: #2F945F;
   border: 5px solid #f9f9f9;
   border-radius: 10px;
   color: #f9f9f9;
-  display: inline-block;
+}
+
+figure.section-image.odd {
+  float: right;
+  max-width: 500px; 
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom: 32px; 
+}
+
+figure.section-image.even {
+  float: left;
+  padding: 3px;
+  max-width: 75%; 
+  margin-bottom: 32px;
 }
 
 .skip-link {
