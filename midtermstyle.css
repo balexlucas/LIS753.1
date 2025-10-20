@@ -10,7 +10,7 @@ Header {
   border-radius: 10px;
 }
 
-Header h1 {
+Header H1 {
   background: #2F945F;
   color: #f9f9f9;
   border-radius: 10px;
@@ -24,7 +24,7 @@ Header h1 {
   padding-top: 0px:
 }
 
-Header h2 {
+Header H2 {
   background-color: #2F945F;
   color: #f9f9f9;
   display: inline-block;
@@ -37,11 +37,6 @@ Header h2 {
   border-radius: 10px;
 }
 
-p {
- padding-left: 20px;
- padding-right: 30px;
-}
-
 Header H3 {
   background-color: #2F945F;
   color: #f9f9f9;
@@ -51,10 +46,21 @@ Header H3 {
   border-radius: 10px;
 }
 
+Header H3 p {
+  width: 100%
+}
+
 body {
   background-color: #f9f9f9;
   font-family: arial;
   padding: 20px;
+}
+
+p {
+  max-width: 1500px;
+  font-size: 18px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 nav {
@@ -67,25 +73,12 @@ nav {
   border-radius: 10px;
 }
 
-H2.section.header-even {
-  text-align: left;
-  padding: 25px;
-  font-size: 50px;
-  indent-left: 25%;
-  background-color: #2F945F;
-  border: 5px solid #f9f9f9;
-  border-radius: 10px;
-  color: #f9f9f9;
-  display: inline-block;
-}
-
 figure img {
   max-width: 500px;
 }
 
 H2.section.header-odd {
   text-align: center;
-  display: inline-block;
   padding: 25px;
   font-size: 75px;
   background-color: #2F945F;
@@ -96,10 +89,21 @@ H2.section.header-odd {
 
 figure.section-image.odd {
   float: right;
-  max-width: 500px; 
-  margin-top: 100px;
-  margin-left: 20px;
-  margin-bottom: 32px; 
+  max-width: 300px; 
+  padding-left: 15px;
+  padding-bottom: 10px; 
+  padding-right: 15px;
+}
+
+H2.section.header-even {
+  text-align: right;
+  padding: 25px;
+  font-size: 75px;
+  indent-left: 25%;
+  background-color: #2F945F;
+  border: 5px solid #f9f9f9;
+  border-radius: 10px;
+  color: #f9f9f9;
 }
 
 figure.section-image.even {
