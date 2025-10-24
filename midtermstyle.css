@@ -127,6 +127,10 @@ h3 {
   font-size: 35px;
 }
 
+#pricing {
+  margin-top: 15px;
+}
+
 .pricing-container {
   display: flex;
   justify-content: center;
@@ -153,7 +157,7 @@ figure.section-image.even {
   padding: 0;
   margin-left: 0;
   margin-right: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 figure.section-image.even img {
