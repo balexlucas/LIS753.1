@@ -133,14 +133,20 @@ h3 {
 
 .pricing-column h4 {
   text-justify: center;
-
 }
 
 figure.section-image.even {
   float: left;
-  padding: 3px;
-  max-width: 85%; 
-  margin: 15px;
+  width: 48%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+figure.section-image.even img {
+  width: 100%;
+  height: auto;
 }
 
 .skip-link {
