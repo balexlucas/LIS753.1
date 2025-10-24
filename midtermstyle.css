@@ -90,11 +90,16 @@ h2.section.header-odd {
 
 figure.section-image.odd {
   float: right;
-  max-width: 300px; 
+  max-width: 48%;
   padding-left: 15px;
   padding-bottom: 10px; 
-  padding-right: 15px;
+  padding-right: 0;
   margin-right: 0;
+}
+
+figure.section-image.odd img {
+  width: 100%;
+  height: auto;
 }
 
 h2.section.header-even {
@@ -124,6 +129,11 @@ h3 {
   background-color: #f9f9f9;
   border: 2px solid #2F945F;
   border-radius: 10px;
+}
+
+.pricing-column h4 {
+  text-justify: center;
+
 }
 
 figure.section-image.even {
