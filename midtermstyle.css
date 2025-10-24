@@ -83,7 +83,7 @@ figure img {
   max-width: 500px;
 }
 
-h2.section.header-odd {
+h2.section.header {
   text-align: center;
   padding: 25px;
   font-size: 50px;
@@ -109,16 +109,6 @@ figure.section-image.odd img {
 
 #Schedule {
   padding-left: 30px;
-}
-
-h2.section.header-even {
-  text-align: center;
-  padding: 25px;
-  font-size: 50px;
-  background-color: #2F945F;
-  border: 5px solid #f9f9f9;
-  border-radius: 10px;
-  color: #f9f9f9;
 }
 
 h3 {
