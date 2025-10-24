@@ -59,14 +59,6 @@ body {
   margin: 0 auto;
 }
 
-h3 {
-  margin-left: 30px;
-}
-
-h4 {
-  margin-left: 30px;
-}
-
 p {
   max-width: 1500px;
   font-size: 18px;
@@ -128,7 +120,7 @@ h2.section.header-even {
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #pricing {
