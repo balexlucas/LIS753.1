@@ -1,4 +1,4 @@
-Header {
+header {
   background: #f9f9f9;
   background-image: url("https://images.pexels.com/photos/214659/pexels-photo-214659.jpeg");
   background-attachment: fixed;
@@ -10,7 +10,7 @@ Header {
   border-radius: 10px;
 }
 
-Header H1 {
+header h1 {
   background: #2F945F;
   color: #f9f9f9;
   border-radius: 10px;
@@ -24,7 +24,7 @@ Header H1 {
   padding-top: 0px;
 }
 
-Header H2 {
+header h2 {
   background-color: #2F945F;
   color: #f9f9f9;
   display: inline-block;
@@ -37,7 +37,7 @@ Header H2 {
   border-radius: 10px;
 }
 
-Header H3 {
+header h3 {
   background-color: #2F945F;
   color: #f9f9f9;
   text-align: center;
@@ -46,7 +46,7 @@ Header H3 {
   border-radius: 10px;
 }
 
-Header H3 p {
+header h3 p {
   width: 100%;
   font-size: 25px;
 }
@@ -78,7 +78,7 @@ figure img {
   max-width: 500px;
 }
 
-H2.section.header-odd {
+h2.section.header-odd {
   text-align: center;
   padding: 25px;
   font-size: 50px;
@@ -94,11 +94,10 @@ figure.section-image.odd {
   padding-left: 15px;
   padding-bottom: 10px; 
   padding-right: 15px;
+  margin-right: 0;
 }
 
-body 
-
-H2.section.header-even {
+h2.section.header-even {
   text-align: right;
   padding: 25px;
   font-size: 50px;
@@ -108,13 +107,23 @@ H2.section.header-even {
   color: #f9f9f9;
 }
 
-H3 {
+h3 {
   font-size: 35px;
 }
 
-.table {
+.pricing-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pricing-column {
+  flex: 1;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 2px solid #2F945F;
+  border-radius: 10px;
 }
 
 figure.section-image.even {
