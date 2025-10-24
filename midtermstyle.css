@@ -55,6 +55,8 @@ body {
   background-color: #f9f9f9;
   font-family: arial;
   padding: 20px;
+  max-width: 1200px; 
+  margin: 0 auto;
 }
 
 p {
