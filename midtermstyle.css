@@ -56,15 +56,15 @@ body {
   font-family: arial;
   padding: 20px;
   max-width: 1200px; 
-  margin: 0;
+  margin: 0 auto;
 }
 
 h3 {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 h4 {
-  margin-left: 25px;
+  margin-left: 30px;
 }
 
 p {
@@ -135,14 +135,14 @@ h3 {
   margin: 20px;
 }
 
-.pricing-container {
+.room-container {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 20px;
 }
 
-.pricing-column {
+.room-column {
   flex: 1;
   padding: 15px;
   background-color: #f9f9f9;
@@ -150,7 +150,7 @@ h3 {
   border-radius: 10px;
 }
 
-.pricing-column h4 {
+.room-column h4 {
   text-align: center;
   font-size: 18px;
 }
