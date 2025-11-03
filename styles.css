@@ -6,6 +6,7 @@ h1 {
   font-family: arial;
   font-size: 34px;
   text-align: center;
+  margin: auto;
 }
 
 h1#site-title {
@@ -84,6 +85,8 @@ header nav ul {
     margin-right: 1.5cm;
     margin-left: 1.5cm;
   }
+
+
 }
 
 header nav ul li a:hover {
