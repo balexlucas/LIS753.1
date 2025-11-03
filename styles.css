@@ -19,7 +19,7 @@ h1#site-title {
 }
 
 .skip-link {
-  left: 50%;
+  margin: auto;
   padding: 4px;
   font-weight: 700;
   position: absolute;
@@ -44,6 +44,18 @@ header nav ul {
   border: 1px solid grey;
 }
 
+@media all and (min-width: 768px) {
+  figure.section-image {
+    background-color: #8B080F;
+    border-color: #007EBD;
+    color: white;
+    padding: 3px;
+    max-width: 300px; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 @media all and (min-width: 376px) {
   nav ul {
     display: flex;
@@ -51,20 +63,20 @@ header nav ul {
     gap: 3vw;
   }
 
-    figure.section-image.odd {
-      float: right;
-      padding: 3px;
-      max-width: 50%; 
-      margin-left: 20px;
-      margin-bottom: 32px;
+  figure.section-image.odd {
+    float: right;
+    padding: 3px;
+    max-width: 50%; 
+    margin-left: 20px;
+    margin-bottom: 32px;
   }
 
   figure.section-image.even {
-      float: left;
-      padding: 3px;
-      max-width: 50%; 
-      margin-right: 20px;
-      margin-bottom: 32px;
+    float: left;
+    padding: 3px;
+    max-width: 50%; 
+    margin-right: 20px;
+    margin-bottom: 32px;
   }
 }
 
@@ -118,11 +130,10 @@ figure.section-image {
   background-color: #8B080F;
   border-color: #007EBD;
   color: white;
-  float: right;
-  padding: 3px;
-  max-width: 300px; 
-  margin-left: 20px;
-  margin-bottom: 20px;
+  padding: 1px;
+  max-width: 100%; 
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 figure.section-image.odd {
