@@ -50,8 +50,23 @@ header nav ul {
     justify-content: center;
     gap: 3vw;
   }
-}
 
+    figure.section-image.odd {
+      float: right;
+      padding: 3px;
+      max-width: 50%; 
+      margin-left: 20px;
+      margin-bottom: 32px;
+  }
+
+  figure.section-image.even {
+      float: left;
+      padding: 3px;
+      max-width: 50%; 
+      margin-right: 20px;
+      margin-bottom: 32px;
+  }
+}
 
 header nav ul li a:hover {
   text-decoration: underline;
@@ -111,19 +126,15 @@ figure.section-image {
 }
 
 figure.section-image.odd {
-  float: right;
   padding: 3px;
-  max-width: 50%; 
-  margin-left: 20px;
-  margin-bottom: 32px;
+  margin-left: 10px;
+  margin-bottom: 16px;
 }
 
 figure.section-image.even {
-  float: left;
   padding: 3px;
-  max-width: 50%; 
-  margin-right: 20px;
-  margin-bottom: 32px;
+  margin-right: 10px;
+  margin-bottom: 16px;
 }
 
 p {
