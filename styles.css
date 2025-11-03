@@ -39,7 +39,7 @@ h1#site-title {
 }
 
 header nav ul {
-  justify-content: center;
+  margin: auto;
   font-size: 18px;
   list-style: none;
   padding-left: 0;
