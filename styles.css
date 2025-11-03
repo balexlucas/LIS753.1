@@ -78,6 +78,11 @@ header nav ul {
     margin-right: 20px;
     margin-bottom: 32px;
   }
+
+  p {
+    margin-right: 1.5cm;
+    margin-left: 1.5cm;
+  }
 }
 
 header nav ul li a:hover {
@@ -127,6 +132,7 @@ figure.main-image {
 }
 
 figure.section-image {
+  justify-content: center;
   background-color: #8B080F;
   border-color: #007EBD;
   color: white;
@@ -149,8 +155,8 @@ figure.section-image.even {
 }
 
 p {
-  margin-right: 1.5cm;
-  margin-left: 1.5cm;
+  margin-right: .5cm;
+  margin-left: .5cm;
 }
 
 h2 {
