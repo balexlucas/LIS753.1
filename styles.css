@@ -1,3 +1,36 @@
+#message {
+  margin: 12px;
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 25px;
+  font-family: arial;
+  background-color: black;
+  margin: auto;
+  color: white;
+  border-radius: 5px;
+  max-width: 500px;
+  opacity: 1;
+  transition: opacity .5s ease;
+}
+
+#message.dismissed {
+  opacity: 0;
+  height: 0;
+}
+
+#message button {
+  float: right;
+}
+
+body.dark-mode {
+  background: #010101;
+  color: #ffffff
+}
+
+body.dark-mode button{
+  background-color: #ffffff;
+}
+
 h1 {
   background-color: #007EBD;
   color: white;
@@ -7,6 +40,8 @@ h1 {
   font-size: 34px;
   text-align: center;
   margin: auto;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 h1#site-title {
@@ -21,9 +56,7 @@ h1#site-title {
 
 .skip-link {
   margin: auto;
-  padding: 4px;
-  font-weight: 700;
-  position: absolute;
+  text-align: center;
   transform: translateY(-100%);
   transition: 0.3s;
 }
@@ -85,8 +118,6 @@ header nav ul {
     margin-right: 1.5cm;
     margin-left: 1.5cm;
   }
-
-
 }
 
 header nav ul li a:hover {
@@ -111,14 +142,14 @@ figure {
 }
 
 body main article figure figcaption {
-  font: arial;
+  font-family: arial;
   color: white;
   margin-bottom: 20px;
-
 }
 
 #main {
-  padding: 4px;
+  padding: 10px;
+  margin-top: 1cm;
   margin-left: 1cm;
   margin-right: 1cm;
 }
@@ -132,11 +163,23 @@ p img {
 
 figure.main-image {
   background-color: #007EBD;
-  border-color: white
+  border-color: white;
+  max-width: 50%;
+  margin: auto;
+}
+
+#main-picture {
+  margin: auto;
+  display: block;
+}
+
+figcaption { 
+  padding: 10px;
+  text-align: center;
 }
 
 figure.section-image {
-  justify-content: center;
+  margin: auto;
   background-color: #8B080F;
   border-color: #007EBD;
   color: white;
@@ -147,19 +190,21 @@ figure.section-image {
 
 figure.section-image.odd {
   padding: 3px;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-bottom: 16px;
+  margin-right: 1cm;
 }
 
 figure.section-image.even {
   padding: 3px;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-bottom: 16px;
+  margin-left: 1cm;
 }
 
 p {
-  margin-right: .5cm;
-  margin-left: .5cm;
+  margin-right: 1cm;
+  margin-left: 1cm;
 }
 
 h2 {
@@ -167,7 +212,7 @@ h2 {
   margin-right: 1cm;
   margin-left: 1cm;
   color: white;
-  padding: 12px;
+  padding: 10px;
   letter-spacing: -2px;
   text-shadow: 2px 2px black;
   font-family: arial;
