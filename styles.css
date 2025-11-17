@@ -4,11 +4,11 @@
   padding: 15px 30px;
   font-size: 25px;
   font-family: arial;
-  background-color: black;
+  background-color: #007EBD;
   margin: auto;
   color: white;
   border-radius: 5px;
-  max-width: 500px;
+  max-width: 1000px;
   opacity: 1;
   transition: opacity .5s ease;
 }
@@ -31,6 +31,11 @@ body.dark-mode button{
   background-color: #ffffff;
 }
 
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
 h1 {
   background-color: #007EBD;
   color: white;
@@ -42,6 +47,7 @@ h1 {
   margin: auto;
   padding: 10px;
   margin-top: 10px;
+  border-radius: 5px
 }
 
 h1#site-title {
@@ -52,6 +58,7 @@ h1#site-title {
   font-family: arial;
   font-size: 68px;
   text-align: center;
+  border-radius: 5px
 }
 
 .skip-link {
@@ -75,8 +82,18 @@ header nav ul {
   margin: auto;
   font-size: 18px;
   list-style: none;
-  padding-left: 0;
-  border: 1px solid grey;
+  border: 3px solid grey;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 5px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
 }
 
 @media all and (min-width: 768px) {
@@ -120,31 +137,28 @@ header nav ul {
   }
 }
 
-header nav ul li a:hover {
-  text-decoration: underline;
-}
-
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 figure img {
   max-width: 100%;
   height: auto;
   margin-bottom: 12px;
+  border-radius: 5px;
 }
 
 figure {
   border: 1px solid black;
-  padding: 12px;
-  padding-bottom: 24px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 body main article figure figcaption {
   font-family: arial;
   color: white;
-  margin-bottom: 20px;
 }
 
 #main {
@@ -166,6 +180,7 @@ figure.main-image {
   border-color: white;
   max-width: 50%;
   margin: auto;
+  border-radius: 5px
 }
 
 #main-picture {
@@ -218,6 +233,7 @@ h2 {
   font-family: arial;
   font-size: 34px;
   text-align: center;
+  border-radius: 5px
 }
 
 article {
