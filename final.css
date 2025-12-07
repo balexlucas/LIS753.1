@@ -1,1 +1,18 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  background: #cecece
+}
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 19px;
+  text-align: center;
+}
