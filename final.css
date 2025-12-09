@@ -51,7 +51,9 @@ h1 {
   font-family: sans-serif;
   font-size: 72px;
   padding: 80px;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://digitalhub.fifa.com/transform/de1fd0e5-c091-49ac-a115-00faec1217b1/FIFA-World-Cup-26-Official-Brand-unveiled-in-Los-Angeles?&io=transform:fill,width:1366&quality=75);
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), 
+    url(https://digitalhub.fifa.com/transform/de1fd0e5-c091-49ac-a115-00faec1217b1/FIFA-World-Cup-26-Official-Brand-unveiled-in-Los-Angeles?&io=transform:fill,width:1366&quality=75);
   margin: 1.0cm;
   background-position: center;
   background-size: cover;
