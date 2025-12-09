@@ -170,7 +170,6 @@ img {
   display: block;
 }
 
-
 figure {
   max-width: 33%;
   float: left;
@@ -190,7 +189,7 @@ figure {
 }
 
 figcaption {
-  padding: 15px;
+  padding: 10px;
   margin-left: 15px;
   margin-right: 15px;
   text-align: center;
