@@ -1,4 +1,8 @@
 @media all and (min-width: 376px) {
+  nav ul {
+    display: none;
+  }
+  
   p {
     margin-right: 1.5cm;
     margin-left: 1.5cm;
@@ -10,9 +14,16 @@ body {
   background: #cecece
 }
 
+article {
+  background: white;
+  padding: 15px;
+  margin-bottom: 1cm;
+}
+
 h1 {
   text-align: center;
-  font-family: arial;
+  font-family: sans-serif;
+  padding: 10px;
 }
 
 h2 {
@@ -21,20 +32,54 @@ h2 {
 }
 
 h3 {
-  margin-left: 1.5cm;
-  margin-top: 1.5cm;
-  font-family: arial;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+  background: #045694;
+  color: white;
+  border-radius: 3px;
 }
 
-.container {
+.group-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
 }
 
-.column {
+.group-column {
   flex: 1;
   min-width: 200px;
+  border-radius: 4px;
+}
+
+.group-column p {
+  background: #f3f1e5;
+  margin: 0;
+  padding: 5px; 
+  margin-bottom: .2cm;
+}
+
+.schedule-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.schedule-column {
+  flex: 1;
+  min-width: 200px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.schedule-column p {
+  background: #f3f1e5;
+  margin: 0;
+  padding: 12px; 
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 p {
@@ -42,10 +87,19 @@ p {
   font-family: arial;
 }
 
+img {
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
 footer {
+  background: #045694;
   text-align: center;
   font-family: arial;
   padding: 3px;
+  color: white;
 }
 
 footer nav ul {
@@ -62,17 +116,17 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-  border: 2px solid black;
+  border: 4px solid #cecece;
   padding: 15px;
   display: inline-block;
   margin: 6px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 7px;
   min-height: 41px;
-  color: black;
+  color: white;
 }
 
 footer nav ul li a:hover {
-  background-color: #f0f0f0;
+  background-color: #28344b;
   border-color: #000;
 }
