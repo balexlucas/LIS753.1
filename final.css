@@ -26,6 +26,17 @@ h3 {
   font-family: arial;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+}
+
 p {
   font-size: 19px;
   font-family: arial;
