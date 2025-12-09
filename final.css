@@ -5,6 +5,13 @@
   }
 }
 
+@media all and (min-width: 376px) {
+  p {
+    margin-right: 1.5cm;
+    margin-left: 1.5cm;
+  }
+}
+
 @media all and (max-width: 768px) {
   footer nav ul {
     flex-direction: column;
@@ -30,7 +37,7 @@
 body {
   max-width: 1000px;
   margin: auto;
-  background: #cecece
+  background: #b2afaa;
 }
 
 article {
@@ -42,7 +49,14 @@ article {
 h1 {
   text-align: center;
   font-family: sans-serif;
-  padding: 10px;
+  font-size: 72px;
+  padding: 80px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://digitalhub.fifa.com/transform/de1fd0e5-c091-49ac-a115-00faec1217b1/FIFA-World-Cup-26-Official-Brand-unveiled-in-Los-Angeles?&io=transform:fill,width:1366&quality=75);
+  margin: 1.0cm;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 h2 {
