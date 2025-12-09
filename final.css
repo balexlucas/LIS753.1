@@ -1,13 +1,29 @@
 @media all and (min-width: 376px) {
-  nav ul {
-    display: none;
-  }
-  
   p {
     margin-right: 1.5cm;
     margin-left: 1.5cm;
   }
 }
+
+@media all and (max-width: 376px) {
+  footer nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer nav ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  footer nav ul li a {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 body {
   max-width: 1000px;
   margin: auto;
@@ -36,9 +52,48 @@ h3 {
   text-align: center;
   font-family: sans-serif;
   padding: 10px;
-  background: #045694;
+  background: #304ffe;
   color: white;
   border-radius: 3px;
+}
+
+.region-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.region-column-1 {
+  width: 100%;
+  gap: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.region-column-1 h3 {
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+
+.region-column-1 p {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  background: #f3f1e5;
+  margin: 0;
+}
+
+.region-column {
+  flex: 1;
+  min-width: 300px;
+  border-radius: 4px;
+}
+
+.region-column p {
+  background: #f3f1e5;
+  margin: 0;
+  padding: 5px; 
+  margin-bottom: .2cm;
 }
 
 .group-container {
@@ -96,7 +151,7 @@ img {
 }
 
 footer {
-  background: #045694;
+  background: #304ffe;
   text-align: center;
   font-family: arial;
   padding: 3px;
@@ -143,6 +198,11 @@ figure {
   max-height: 300px;
   display: block;
   border-radius: 5px;
+}
+
+#teams-img {
+  max-height: 1000px;
+  max-width: 80%;
 }
 
 figcaption {
