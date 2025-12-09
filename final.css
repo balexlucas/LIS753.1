@@ -2,17 +2,18 @@
   p {
     margin-right: 1.5cm;
     margin-left: 1.5cm;
-  }
+    }
   
   footer nav ul li {
     padding: 20px;
     margin-bottom: 50px;
-  }
+    }
   
   footer nav ul li a {
     min-height: 70px;
     padding: 15px;
     margin: 6px;  
+    }
 }
 
 @media all and (max-width: 768px) {
